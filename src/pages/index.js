@@ -5,7 +5,7 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
+  const siteTitle = '주창용의 포트폴리오'
   const siteDescription = 'Site description'
 
   return (
@@ -18,31 +18,30 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
+            <h1>
+              "도전에 성공하는 비결은 단 하나, 결단코 포기하지 않는 일이다."
               <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            </h1>
           </header>
-          <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
-          </p>
+          <h3>
+            새로운 것에 대한 두려움을 갖지않고 도전하겠습니다.
+            <br />
+            정해진 목표를 이루기 위해 "오기"를 가지고 끊임없이 노력하겠습니다.
+            <br />
+            Node.js & Express, Springboot를 이용하여 개발한 경험이 있으며 
+            현재도 BackEnd개발자의 길을 가기위해 꾸준히 노력하고 있습니다.
+          </h3>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Learn More
+              <a href="https://github.com/joochangyong" target="_blank" className="button">
+                github
               </a>
             </li>
           </ul>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Projects</h2>
 
           <Gallery />
 
@@ -104,23 +103,19 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
+                  부산광역시 사상구
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  010-3103-3706
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  wnckddyd0525@gmail.com
                 </li>
               </ul>
             </div>

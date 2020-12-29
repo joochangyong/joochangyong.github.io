@@ -5,31 +5,14 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-github">
+          <a href="https://github.com/joochangyong" target="_blank" className="icon fa-github">
             <span className="label">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-envelope-o">
-            <span className="label">Email</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
+        <li>📧 : wnckddyd0525@gmail.com</li>
+        <li>📱 : 010-3103-3706</li>
       </ul>
     </div>
   </div>
