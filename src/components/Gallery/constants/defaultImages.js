@@ -16,7 +16,9 @@ export const DEFAULT_IMAGES = [
       <ul>
         <li><b>토이 프로젝트</b><br/>SpingBoot, JPA를 이용해 구축한 온라인 서점 시스템입니다.</li>
         <br />
-        <li><b>구현 기술</b> : SpringBoot, JPA, JavaScript, MySQL, AWS RDS, Mustache, Spring security<br /><b>배포</b> : AWS EC2, AWS S3, AWS CodeDeploy, AWS Route53, Nginx, travis-ci</li>
+        <li><b>구현 기술</b> : SpringBoot, JPA, JavaScript, MySQL, AWS RDS, Mustache, Spring security<br /><b>배포</b> : AWS EC2, AWS S3, AWS CodeDeploy, AWS Route53, Nginx, travis-ci
+        👉<a href="http://bookstore.joochangyong.xyz/" target="_blank">페이지 이동</a>
+        </li>
       </ul>,
       
     },
