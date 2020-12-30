@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/face.jpg'
+import avatar from '../assets/images/headerMe.jpg'
 
 const Header = () => (
   <header id="header">

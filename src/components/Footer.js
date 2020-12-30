@@ -11,8 +11,8 @@ const Footer = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>📧 : wnckddyd0525@gmail.com</li>
         <li>📱 : 010-3103-3706</li>
+        <li>📧 : wnckddyd0525@gmail.com</li>
       </ul>
     </div>
   </div>
