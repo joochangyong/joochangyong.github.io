@@ -24,23 +24,31 @@ const HomeIndex = () => {
               <br />
             </h1>
           </header>
-          <h3>
+          <h5>
             새로운 것에 대한 두려움을 갖지않고 도전하겠습니다.
             <br />
             정해진 목표를 이루기 위해 "오기"를 가지고 끊임없이 노력하겠습니다.
             <br />
-            Node.js & Express, Springboot를 이용하여 개발한 경험이 있으며 
+            SpringBoot, Node.js & Express를 이용하여 개발한 경험이 있으며 
             현재도 BackEnd개발자의 길을 가기위해 꾸준히 노력하고 있습니다.
-          </h3>
+          </h5>
           <ul className="actions">
             <li>
-              <a href="https://github.com/joochangyong" target="_blank" className="button">
+              <a href="https://github.com/joochangyong" target="_blank" className="button" class="btn btn-secondary btn-md">
                 github
               </a>
             </li>
           </ul>
+          <h2>
+            경력
+          </h2>
+          <h3>
+          &emsp; &emsp; 기간 &emsp; &emsp; &emsp; &emsp; 회사 &nbsp; &nbsp; &nbsp; &emsp; 포지션
+          </h3>
+          <h5>
+            2021.01.25 - 2021.11.30 &nbsp; &nbsp; &nbsp; &nbsp; (주)바질컴퍼니 &nbsp; &nbsp; &nbsp; &nbsp; 백엔드
+          </h5>
         </section>
-
         <section id="two">
           <h2>Projects</h2>
 
