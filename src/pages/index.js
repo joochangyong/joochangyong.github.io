@@ -35,19 +35,35 @@ const HomeIndex = () => {
           <ul className="actions">
             <li>
               <a href="https://github.com/joochangyong" target="_blank" className="button" class="btn btn-secondary btn-md">
-                github
+                github이동
               </a>
             </li>
           </ul>
-          <h2>
-            경력
-          </h2>
           <h3>
-          &emsp; &emsp; 기간 &emsp; &emsp; &emsp; &emsp; 회사 &nbsp; &nbsp; &nbsp; &emsp; 포지션
+            경력
           </h3>
-          <h5>
-            2021.01.25 - 2021.11.30 &nbsp; &nbsp; &nbsp; &nbsp; (주)바질컴퍼니 &nbsp; &nbsp; &nbsp; &nbsp; 백엔드
-          </h5>
+          <table>
+            <thead>
+              <tr>
+                <th>기간</th>
+                <th>회사</th>
+                <th>포지션</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2021.01.25 - 2021.11.30</td>
+                <td>(주)바질컴퍼니</td>
+                <td>백엔드</td>
+              </tr>
+              <tr>
+                <td>2015.03.02 - 2021.02.21</td>
+                <td>동서대학교 컴퓨터공학부</td>
+                <td>졸업</td>
+              </tr>
+              
+            </tbody>
+          </table>
         </section>
         <section id="two">
           <h2>Projects</h2>
