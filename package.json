@@ -25,7 +25,7 @@
     "start": "npm run develop",
     "serve": "gh-pages -d public -b master",
     "clean": "gatsby clean",
-    "deploy": "npm run clean && npm run build && npm run serve",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write \"**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
